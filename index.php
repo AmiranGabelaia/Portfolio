@@ -30,7 +30,7 @@
 
         <div class="content">
             <h4>Hello, my name is</h4>
-            <h1>Amiran <span>Gabelaia</span></h1>
+            <h1>Amiran <span> <?php echo "Gabelaia";?></span></h1>
             <h3>I am a web Developer.</h3>
             <div class="newsletter">
                 <form>
