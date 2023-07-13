@@ -30,7 +30,7 @@ nav {
 }
 
 span{
-    color: #f9004d;
+    color: beige;
 }
 
 nav ul li {
@@ -92,7 +92,7 @@ h4 {
 }
 
 .newsletter form {
-    width: 380px;
+    width: 200px;
     max-width: 100%;
     position: relative;
 }
@@ -123,7 +123,7 @@ h4 {
 .about  {
     width: 100%;
     padding: 100px 0px;
-    background-color: #191919;
+    background-image: url(BIFAS.jpg);
 }
 
 .about img {
@@ -167,7 +167,7 @@ h4 {
     margin-bottom: 45px;
 }
 
-button {
+.linkedin {
     background-color: #f9004d;
     color: white;
     text-decoration: none;
@@ -178,7 +178,7 @@ button {
     transition: .4s;
 }
 
-button:hover{
+.linkedin:hover{
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
