@@ -1,3 +1,4 @@
+/* Default styles */
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* Hero section */
 .hero {
     height: 100vh;
     width: 100%;
@@ -13,6 +15,7 @@
     background-position: center;
 }
 
+/* Navigation */
 nav {
     display: flex;
     align-items: center;
@@ -29,7 +32,7 @@ nav {
     cursor: pointer;
 }
 
-span{
+span {
     color: beige;
 }
 
@@ -51,6 +54,7 @@ nav ul li a:hover {
     transition: .4s;
 }
 
+/* Button */
 .btn {
     background-color: #f9004d;
     color: white;
@@ -66,6 +70,7 @@ nav ul li a:hover {
     transform: scale(1.2);
 }
 
+/* Content section */
 .content {
     position: absolute;
     top: 50%;
@@ -91,6 +96,7 @@ h4 {
     font-size: 20px;
 }
 
+/* Newsletter section */
 .newsletter form {
     width: 200px;
     max-width: 100%;
@@ -120,7 +126,8 @@ h4 {
     right: 6px;
 }
 
-.about  {
+/* About section */
+.about {
     width: 100%;
     padding: 100px 0px;
     background-image: url(BIFAS.jpg);
@@ -128,18 +135,21 @@ h4 {
 
 .about img {
     height: auto;
-    width: 430px;
+    width: 100%;
+    max-width: 430px;
 }
 
 .about-text {
-    width: 550px;
+    width: 100%;
+    max-width: 550px;
 }
 
 .main {
-    width: 1130px;
-    max-width: 95%;
+    width: 95%;
+    max-width: 1130px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
@@ -178,12 +188,13 @@ h4 {
     transition: .4s;
 }
 
-.linkedin:hover{
+.linkedin:hover {
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
 }
 
+/* Service section */
 .service {
     background: #101010;
     width: 100%;
@@ -193,7 +204,7 @@ h4 {
 .title h2 {
     color: white;
     font-size: 75px;
-    width: 1130px;
+    width: 100%;
     margin: 30px auto;
     text-align: center;
 }
@@ -205,7 +216,7 @@ h4 {
     min-height: 400px;
 }
 
-.card  {
+.card {
     height: 365px;
     width: 335px;
     padding: 20px 35px;
@@ -225,7 +236,7 @@ h4 {
     color: #f9004d;
 }
 
-h5{
+h5 {
     color: white;
     font-size: 23px;
     margin-bottom: 15px;
@@ -235,7 +246,7 @@ h5{
     color: #fcfc;
     font-size: 16px;
     line-height: 27px;
-    margin-bottom: 25px;  
+    margin-bottom: 25px;
 }
 
 .card .button {
@@ -255,6 +266,7 @@ h5{
     cursor: pointer;
 }
 
+/* Contact section */
 .contact-me {
     width: 100%;
     height: 290px;
@@ -289,7 +301,8 @@ h5{
     cursor: pointer;
 }
 
-footer{
+/* Footer */
+footer {
     position: relative;
     width: 100%;
     height: 400px;
@@ -310,7 +323,8 @@ footer p:nth-child(1) {
 footer p:nth-child(2) {
     color: white;
     font-size: 17px;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     text-align: center;
     line-height: 26px;
 }
